@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">カシャプシュ</string>
+    <string name="fizz">ｶｼｬﾌﾟｼｭ</string>
+	<string name="push_to_kashapushu">カシャプシュ</string>
+	<string name="auth">アカウント認証</string>
+	<string name="plz_auth">メニューからアカウント認証を行なってください</string>
+	<string name="un_logged_in">未ログイン</string>
+	<string name="check_account">読込中</string>
+	<string name="twitter_id">TwitterID: </string>
+	<string name="post_failed">投稿できませんでした</string>
+	<string name="post_succeed">カシャプシュしました</string>
+	<string name="what_are_you_drink_opt">品名（オプション）</string>
+	<string name="others">その他</string>
+	<string name="setting">設定</string>
+	<string name="about">ｶｼｬﾌﾟｼｭについて</string>
+	<string name="treat_beer">ビールを奢る</string>
+	<string name="load_from_barcode">バーコードで読む</string>
+	<string name="dialog_connect_to_play_store_title">Playストアへの接続</string>
+	<string name="dialog_connect_to_play_store_message">この機能を使うにはPlayストアからQRコードスキャナーをインストールする必要があります。\nストアを開きますがよろしいですか？</string>
+	<string name="product_not_found">該当する商品が見つかりませんでした</string>
+    
+</resources>

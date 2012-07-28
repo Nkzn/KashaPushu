@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+		<item
+			android:id="@+id/menu_auth"
+        	android:title="@string/auth"/>
+       	<item
+			android:id="@+id/menu_others"
+			android:title="@string/others"
+			android:icon="@android:drawable/ic_menu_more">
+			<menu>
+				<item 
+					android:id="@+id/menu_setting"
+				    android:title="@string/setting" />
+				<item 
+					android:id="@+id/menu_about"
+					android:title="@string/about" />
+				<item 
+					android:id="@+id/menu_treat_beer"
+					android:title="@string/treat_beer" />
+			</menu>
+       </item>
+       
+</menu>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="horizontal" >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="@string/twitter_id" />
+        <TextView 
+            android:id="@+id/tv_screenname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/un_logged_in" />
+    </LinearLayout>
+
+	<ImageButton
+	    android:id="@+id/ib_kashapushu"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:padding="16dp"
+	    android:src="@drawable/beer"
+	    android:contentDescription="@string/push_to_kashapushu" />
+	
+	<EditText 
+	    android:id="@+id/et_what_are_you_drink"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_above="@+id/ib_kashapushu"
+	    android:layout_alignLeft="@+id/ib_kashapushu"
+	    android:layout_alignRight="@+id/ib_kashapushu"
+	    android:layout_marginBottom="8dp"
+	    android:hint="@string/what_are_you_drink_opt" />
+
+	<Button
+	    android:id="@+id/btn_load_from_barcode"
+	    android:layout_width="wrap_content"
+	    android:layout_height="48dp"
+	    android:layout_below="@+id/ib_kashapushu"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="24dp"
+	    android:text="@string/load_from_barcode" />
+    
+</RelativeLayout>
